@@ -52,9 +52,6 @@ main {
   background-color: #ff9a4b;
   color: #fff;
 }
-.step-box:last-child {
-  margin-right: 0;
-}
 
 .title {
   margin: 15px 0 5px;
@@ -67,15 +64,19 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 
-main {
-  display: block;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.step-box {
-  width: 90%;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  .step-box {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
 }
